@@ -152,7 +152,7 @@ transform: rotate(-54.37deg);
     margin-left: 15px;
  }
 
- .detalhes1 {
+ .detalhes1inicio {
 position: absolute;
 width: 63.05px;
 height: 18.58px;
@@ -160,7 +160,7 @@ left: 650px;
 top: 200px;
  }
 
- .detalhes2 {
+ .detalhes2inicio {
 position: absolute;
 width: 33.85px;
 height: 39.82px;
@@ -169,7 +169,7 @@ right: 100px;
 
  }
 
- .detalhes3 {
+ .detalhes3inicio {
 
 box-sizing: border-box;
 
@@ -182,7 +182,7 @@ top: 689.24px;
 
  }
 
- .detalhes4 {
+ .detalhes4inicio {
 /* add */
 
 position: absolute;
