@@ -316,6 +316,260 @@ transform: rotate(-54.37deg);
     justify-content: space-between;
  }
 
+ .criterios h2 {
+   text-align: center;
+   margin-top: 80px;
+   margin-bottom: 50px;
+   font-size: 40px;
+ }
+
+ .todosCriterios {
+   width: 80%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 80px;
+   margin-bottom: 200px;
+ }
+
+ .todosCriterios div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 15px;
+ }
+
+ .todosCriterios div h4 {
+   font-size: 22px;
+   font-weight: 400;
+ }
+
+ .todosCriterios div p {
+   text-align: center;
+   font-weight: 300;
+   opacity: .8;
+   font-size: 16px;
+ }
+
+ .detalhes2 {
+   position: relative;
+   right: -1000px;
+ }
+
+.criteriosAbaixo {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   width: 80%;
+   margin: auto;
+   gap: 30px;
+ }
+
+ .criteriosAbaixo div {
+   height: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   background: rgba(151, 151, 151, 0.253);
+   opacity: 0.8;
+   backdrop-filter: blur(50px);
+ }
+
+ .criteriosAbaixo #div2 {
+   margin-top: 70px;
+ }
+
+ .criteriosAbaixo #div3 {
+   margin-top: 140px;
+ }
+
+ .criteriosAbaixo div img {
+   width: 90%;
+   height: 85%;
+ }
+
+ .detalhes1 {
+   position: relative;
+   left: 200px;
+   top: 0;
+ }
+
+.ranking {
+   width: 30%;
+   margin: auto;
+   margin-top: 200px;
+}
+
+.ranking div {
+ margin: auto;
+}
+
+.ranking h2 {
+   text-align: center;
+   font-size: 40px;
+}
+
+.ranking div h3, p, h4 {
+   text-align: center;
+}
+
+.ranking div h3 {
+   font-weight: 400;
+   opacity: .8;
+   font-size: 25px;
+   margin-top: 70px;
+   text-transform: uppercase;
+}
+
+.ranking div img {
+   width: 100%;
+   margin-top: 20px;
+}
+
+.ranking div p, .ranking div h4 {
+   font-weight: 300;
+   opacity: .8;
+}
+
+.ranking .sites {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   padding-block: 15px;
+   border-top: 1px solid white;
+}
+
+.ranking .site9 {
+   border-bottom: 1px solid white;
+}
+
+.textosSites {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.sites div h4, .sites div p {
+   text-align: left;
+}
+
+.ranking div div div img {
+   width: 100px;
+   margin: 0;
+}
+
+.ranking div div {
+   margin: 0;
+}
+
+#luzRoxa1 {
+position: absolute;
+width: 409.94px;
+height: 918.86px;
+left: 0;
+z-index: -1;
+
+background: linear-gradient(180deg, rgba(14, 0, 169, 0.27) 0%, rgba(38, 41, 41, 0.27) 99.99%, rgba(14, 0, 169, 0.1134) 100%);
+filter: blur(99.5536px);
+border-radius: 154.972px;
+transform: rotate(-54.37deg);
+}
+
+#luzRoxa2 {
+position: absolute;
+width: 597.93px;
+height: 633.29px;
+right: 0;
+z-index: -1;
+
+background: linear-gradient(180deg, rgba(14, 0, 169, 0.2) 0%, rgba(14, 0, 169, 0.112) 100%);
+filter: blur(99.5536px);
+border-radius: 154.972px;
+transform: matrix(-0.58, -0.81, -0.81, 0.58, 0, 0);
+}
+
+.detalhes {
+   display: flex;
+   justify-content: space-between;
+}
+
+.det1 {
+   margin-top: -50px;
+   margin-left: 7%;
+}
+
+.det2 {
+   margin-right: 3%;
+   margin-top: 300px;
+}
+
+.noticias{
+   width: 70%;
+   margin: auto;
+   
+}
+
+.wrapper {
+   border: 1px solid blueviolet;
+   height: 700px;
+   margin-bottom: 100px;
+}
+
+.nots {
+   border: 1px solid red;
+}
+
+.not1 {
+   height: 450px;
+   width: 58%;
+   float: left;
+}
+
+.not2 {
+height: 215px;
+width: 40%;
+float: left;
+margin-left: 2%;
+}
+
+.not3 {
+   height: 215px;
+   width: 40%;
+   float: left;
+   margin-left: 2%;
+   margin-top: 20px;
+}
+
+.not4 {
+   height: 240px;
+   float: left;
+   width: 33%;
+   margin-top: 10px;
+
+}
+
+.not5 {
+   height: 240px;
+   float: left;
+   width: 33%;
+   margin-left: .5%;
+   margin-top: 10px;
+}
+
+.not6 {
+   height: 240px;
+   float: left;
+   width: 33%;
+   margin-left: .5%;
+   margin-top: 10px;
+
+}
+
+
+
+
+
  /* BARRA DE SCROLL MODIFICADA */
 
  ::-webkit-scrollbar-track {
@@ -326,6 +580,7 @@ transform: rotate(-54.37deg);
 }
 ::-webkit-scrollbar-thumb {
     background: #ff176c;
+    border-radius: 3px;
 }
 
 /* **************************** */
