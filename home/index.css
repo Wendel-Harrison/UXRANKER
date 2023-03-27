@@ -208,14 +208,18 @@ transform: rotate(65.71deg);
 
  .logoMarcas {
     display: flex;
-    max-width: 50%;
+    max-width: 55%;
     margin: auto;
     height: fit-content;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
     margin-bottom: 150px;
     overflow-x: hidden;
+   }
+   
+   .slider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 100px;
 }
 
 #titleMarcas {
