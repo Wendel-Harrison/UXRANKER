@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.lado-esquerdo{
+    position: relative;
+    height: 55px;
+    padding-top: 30px;
+    width: 10%;
+
+}
+.lado-direito{
+    padding-left: 70%;
+    text-align: left;
+}
+.primeiro_titulo{
+    position: relative;
+    text-align: center; 
+    padding-bottom: 20px;
+}
+.segundo_texto{
+    text-align: center;
+    position: relative;
+    
+}
