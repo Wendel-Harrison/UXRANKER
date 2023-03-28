@@ -218,6 +218,141 @@ sr.reveal("#div3", {
     delay: 1500
 })
 
+sr.reveal("#titleRanking", {
+    scale: 1.5,
+    duration: 2000,
+    delay: 100
+})
+
+sr.reveal(".h3Ranking", {
+    origin: "top",
+    distance: "20px",
+    duration: 1500,
+    delay: 300
+})
+
+sr.reveal(".pRanking", {
+    origin: "top",
+    distance: "40px",
+    duration: 1700,
+    delay: 600
+})
+
+sr.reveal(".imgRanking", {
+    origin: "top",
+    distance: "60px",
+    duration: 1900,
+    delay: 900
+})
+
+sr.reveal(".site1", {
+    origin: "bottom",
+    distance: "30px",
+    duration: 1900,
+    delay: 400
+})
+sr.reveal(".site2", {
+    origin: "bottom",
+    distance: "40px",
+    duration: 1900,
+    delay: 500
+})
+sr.reveal(".site3", {
+    origin: "bottom",
+    distance: "50px",
+    duration: 1900,
+    delay: 500
+})
+sr.reveal(".site4", {
+    origin: "bottom",
+    distance: "60px",
+    duration: 1900,
+    delay: 500
+})
+sr.reveal(".site5", {
+    origin: "bottom",
+    distance: "70px",
+    duration: 1900,
+    delay: 500
+})
+sr.reveal(".site6", {
+    origin: "bottom",
+    distance: "80px",
+    duration: 1900,
+    delay: 500
+})
+sr.reveal(".site7", {
+    origin: "bottom",
+    distance: "90px",
+    duration: 1900,
+    delay: 500
+})
+sr.reveal(".site8", {
+    origin: "bottom",
+    distance: "100px",
+    duration: 1900,
+    delay: 500
+})
+sr.reveal(".site9", {
+    origin: "bottom",
+    distance: "110px",
+    duration: 1900,
+    delay: 500
+})
+
+sr.reveal(".not1", {
+    origin: "left",
+    distance: "200px",
+    duration: 1500,
+    delay: 400
+})
+
+sr.reveal(".not2", {
+    origin: "right",
+    distance: "100px",
+    duration: 1500,
+    delay: 400
+})
+
+sr.reveal(".not3", {
+    origin: "right",
+    distance: "100px",
+    duration: 1500,
+    delay: 400
+})
+
+sr.reveal(".not4", {
+    origin: "bottom",
+    distance: "100px",
+    duration: 1500,
+    delay: 400
+})
+
+sr.reveal(".not5", {
+    origin: "bottom",
+    distance: "100px",
+    duration: 1500,
+    delay: 800
+})
+
+sr.reveal(".not6", {
+    origin: "bottom",
+    distance: "100px",
+    duration: 1500,
+    delay: 400
+})
+
+sr.reveal(".h2Artigos", {
+    scale: 1.5,
+    duration: 1500,
+    delay: 400
+})
+
+sr.reveal(".artigosS", {
+    scale: 1.5,
+    duration: 1500,
+    delay: 1000
+})
 
 
 

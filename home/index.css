@@ -35,7 +35,7 @@ transform: rotate(-54.37deg);
 
 }
 
- header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
