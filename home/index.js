@@ -162,6 +162,61 @@ sr.reveal(".imagens9", {
     delay: 1200
 })
 
+sr.reveal(".criterio1", {
+    origin: "left",
+    distance: "120px",
+    duration: 2000,
+})
+
+sr.reveal(".criterio2", {
+    origin: "top",
+    distance: "120px",
+    duration: 2000,
+    delay: 300
+})
+
+sr.reveal(".criterio3", {
+    origin: "right",
+    distance: "120px",
+    duration: 2000,
+})
+
+sr.reveal(".criterio4", {
+    origin: "left",
+    distance: "120px",
+    duration: 2000,
+})
+
+sr.reveal(".criterio5", {
+    origin: "bottom",
+    distance: "120px",
+    duration: 2000,
+    delay: 300
+})
+
+sr.reveal(".criterio6", {
+    origin: "right",
+    distance: "120px",
+    duration: 2000,
+})
+
+sr.reveal("#div1", {
+    scale: 1.7,
+    duration: 2000,
+    delay: 300
+})
+
+sr.reveal("#div2", {
+    scale: 1.7,
+    duration: 2000,
+    delay: 900
+})
+
+sr.reveal("#div3", {
+    scale: 1.7,
+    duration: 2000,
+    delay: 1500
+})
 
 
 
