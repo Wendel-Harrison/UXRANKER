@@ -68,8 +68,17 @@ transform: rotate(-54.37deg);
     font-size: 22px;
  }
 
+ .lado-esquerdo h1:hover {
+   color: #ff176c;
+   font-weight: 600;
+   font-size: 24px;
+   transform: translateX(-2px);
+   transform: translateY(-1px);
+
+}
+
  .lado-direito input {
-    padding: 15px 30px;
+    padding: 10px 30px;
     border-radius: 30px;
     background-color: #ff6ba141;
     border: 2px solid white;
@@ -95,6 +104,16 @@ transform: rotate(-54.37deg);
     font-size: 16px;
     font-weight: 300;
     opacity: 0.8;
+   transition: .3s;
+
+ }
+
+ nav a:hover {
+   color: #ff176c;
+   opacity: 1;
+   font-weight: 700;
+   border-bottom: 1px solid #ff176c;
+   transition: .3s;
  }
 
  .inicio {
@@ -222,6 +241,20 @@ transform: rotate(65.71deg);
       gap: 100px;
 }
 
+.botoesSlider {
+   display: flex;
+   justify-content: space-between;
+   margin-top: -200px;
+   margin-bottom: 150px;
+   margin-inline: 10%;
+}
+
+.botoesSlider button {
+   background-color: #000;
+   font-size: 25px;
+   cursor: pointer;
+}
+
 #titleMarcas {
     text-align: center;
     border-bottom: .5px solid white;
@@ -244,7 +277,7 @@ transform: rotate(65.71deg);
  }
 
  .parte2 {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
  }
 
  .parte1 p {
@@ -333,7 +366,7 @@ transform: rotate(-54.37deg);
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    gap: 80px;
-   margin-bottom: 200px;
+   margin-bottom: 100px;
  }
 
  .todosCriterios div {
@@ -401,7 +434,7 @@ transform: rotate(-54.37deg);
 .ranking {
    width: 30%;
    margin: auto;
-   margin-top: 200px;
+   margin-top: 100px;
 }
 
 .ranking div {
@@ -505,7 +538,7 @@ transform: matrix(-0.58, -0.81, -0.81, 0.58, 0, 0);
 
 .det2 {
    margin-right: 3%;
-   margin-top: 300px;
+   margin-top: 150px;
 }
 
 .noticias{
@@ -770,6 +803,14 @@ transform: matrix(-0.58, -0.81, -0.81, 0.58, 0, 0);
    opacity: .8;
    text-transform: uppercase;
    margin-top: 10px;
+   transition: .3s;
+}
+
+.infoFooter a:hover {
+   color: #ff176c;
+   opacity: 1;
+   font-weight: 700;
+   border-bottom: 1px solid #ff176c;
 }
 
 .infoFooter div div {
@@ -794,6 +835,12 @@ footer p {
    width: fit-content;
    height: fit-content;
    border-radius: 30px;
+   transition: .3s;
+}
+
+.sociais a:hover {
+   background: #ff176c8f;
+   border: 1px solid #ff176c;
 }
 
 
