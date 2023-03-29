@@ -351,7 +351,7 @@ sr.reveal(".h2Artigos", {
 sr.reveal(".artigosS", {
     scale: 1.5,
     duration: 1500,
-    delay: 900
+    delay: 901
 })
 
 
