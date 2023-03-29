@@ -83,6 +83,11 @@ header {
     background-color: #ff6ba141;
     border: 2px solid white;
  }
+ 
+ .lado-direito a {
+   display: flex;
+   align-items: center;
+ }
 
  .lado-direito img {
     width: 40px;
@@ -164,6 +169,7 @@ header {
     border: 2px solid white;
     margin-top: 50px;
  }
+ 
 
  .direitoInicio #inicioImg {
     width: 500px;
