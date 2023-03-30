@@ -12,7 +12,7 @@ function leftSlider1() {
 }
 
 function rightSlider1() {
-    slider1.style.transform="translateX(-1350px)"
+    slider1.style.transform="translateX(-1300px)"
     slider1.style.transition="1.5s"
 }
 

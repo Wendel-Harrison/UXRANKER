@@ -19,8 +19,6 @@ body {
 }
 
 #luzRosa1 {
-  /* Rectangle 9521 */
-
   position: absolute;
   width: 509.94px;
   height: 818.86px;
@@ -38,7 +36,46 @@ body {
   border-radius: 154.972px;
   transform: rotate(-54.37deg);
 }
+#luzRosa2 {
+  /* Rectangle 9521 */
 
+  position: absolute;
+  width: 509.94px;
+  height: 818.86px;
+  left: 166.48px;
+  top: 579.05px;
+  z-index: -1;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 23, 108, 0.27) 0%,
+    rgba(38, 41, 41, 0.27) 99.99%,
+    rgba(84, 84, 212, 0.1134) 100%
+  );
+  filter: blur(99.5536px);
+  border-radius: 154.972px;
+  transform: rotate(-154.37deg);
+}
+#luzRosa3 {
+  /* Rectangle 9521 */
+
+  position: absolute;
+  width: 509.94px;
+  height: 818.86px;
+  left: 583.48px;
+  top: 1673.05px;
+  z-index: -1;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 23, 108, 0.27) 0%,
+    rgba(38, 41, 41, 0.27) 99.99%,
+    rgba(84, 84, 212, 0.1134) 100%
+  );
+  filter: blur(99.5536px);
+  border-radius: 154.972px;
+  transform: rotate(-154.37deg);
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -132,7 +169,6 @@ nav a:hover {
   font-weight: 600;
   font-size: 30px;
   line-height: 30px;
-  /* or 100% */
   color: #ffffff;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
 }
@@ -142,14 +178,17 @@ nav a:hover {
   align-items: center;
 }
 .titulo-categoria {
-   display: flex;
-   align-items: center;
-   justify-content: flex-start;
-   left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  left: 20px;
+  width: fit-content;
 }
 .titulo-categoria p {
+  margin: auto;
   position: relative;
-  width: 200px;
+  width: fit-content;
+  right: 5px;
   height: 32px;
   bottom: 1px;
   left: 100px;
@@ -161,6 +200,16 @@ nav a:hover {
   color: #ffffff;
 }
 
+.titulo-categoria .vector {
+  position: relative;
+  margin-left: auto;
+  font-family: "Franklin Gothic Medium";
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+  height: fit-content;
+  width: 47px;
+}
 .title {
   display: flex;
   justify-content: center;
@@ -175,7 +224,6 @@ nav a:hover {
   font-weight: 800;
   font-size: 35px;
   line-height: 56px;
-  /* identical to box height, or 159% */
   color: #ffffff;
   border-bottom: 3px solid #ff176c;
   transform: rotate(-0.13deg);
@@ -187,85 +235,141 @@ nav a:hover {
 .botoesSlider {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: relative;
-  top: -100px;
+  top: -190px;
   margin: 0 auto;
 }
 .left1,
 .right1 {
-  background-color: transparent;
+  background-color: gray;
   border: none;
   font-size: 30px;
   cursor: pointer;
-  opacity: 0; 
+  opacity: 0.5;
+  position: relative;
+  /* height: 170px; */
+  width: 60px;
+  top: 60px;
+  border-radius: 100px;
 }
 
 .left1:hover,
 .right1:hover {
-  color: gray;
-  opacity: 10;
+  background-color: #000;
+  color: white;
+  opacity: 1;
 }
 .left2,
 .right2 {
-  background-color: transparent;
+  background-color: gray;
   border: none;
   font-size: 30px;
   cursor: pointer;
-  opacity: 0; 
+  opacity: 0.5;
+  position: relative;
+  /* height: 170px; */
+  width: 60px;
+  top: 60px;
+  border-radius: 100px;
 }
 
 .left2:hover,
 .right2:hover {
-  color: gray;
-  opacity: 10; 
+  background-color: #000;
+  color: white;
+  opacity: 1;
 }
 .left3,
 .right3 {
-  background-color: transparent;
+  background-color: gray;
   border: none;
   font-size: 30px;
   cursor: pointer;
-  opacity: 0; 
+  opacity: 0.5;
+  position: relative;
+  /* height: 170px; */
+  width: 60px;
+  top: 60px;
+  border-radius: 100px;
 }
 
 .left3:hover,
 .right3:hover {
-  color: gray;
-  opacity: 10; 
+  background-color: #000;
+  color: white;
+  opacity: 1;
 }
 .left4,
 .right4 {
-  background-color: transparent;
+  background-color: gray;
   border: none;
   font-size: 30px;
   cursor: pointer;
-  opacity: 0; 
+  opacity: 0.5;
+  position: relative;
+  /* height: 170px; */
+  width: 60px;
+  top: 60px;
+  border-radius: 100px;
 }
 
 .left4:hover,
 .right4:hover {
-  color: gray;
-  opacity: 10; 
+  background-color: #000;
+  color: white;
+  opacity: 1;
+}
+.left5,
+.right5 {
+  background-color: gray;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  opacity: 0.5;
+  position: relative;
+  /* height: 170px; */
+  width: 60px;
+  top: 60px;
+  border-radius: 100px;
+}
+
+.left5:hover,
+.right5:hover {
+  background-color: #000;
+  color: white;
+  opacity: 1;
 }
 
 .left1,
 .left2,
 .left3,
-.left4 {
-  margin-left: 70px;
+.left4,
+.left5 {
+  margin-left: 35px;
 }
 
 .movie img {
-  margin-top: 50px;
-  margin-left: 60px;
-  height: 146px;
-  width: 260px;
+  margin: 16px;
+  margin-left: 9px;
+  height: 166px;
+  width: 280px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid #272727;
+}
+
+.movie img:hover {
+  margin: 0 40px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
 }
 
 #footer {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 80px;
+  margin-bottom:100px;
+  align-content: center;
 }
 .infoFooter {
   display: flex;
@@ -281,10 +385,10 @@ nav a:hover {
 .infoFooter a {
   font-size: 16px;
   font-weight: 400;
-  opacity: 0.8;
+  opacity: .8;
   text-transform: uppercase;
   margin-top: 10px;
-  transition: 0.3s;
+  transition: .3s;
 }
 
 .infoFooter a:hover {
@@ -303,6 +407,7 @@ footer p {
   font-size: 18px;
   text-transform: uppercase;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .sociais {
@@ -316,7 +421,7 @@ footer p {
   width: fit-content;
   height: fit-content;
   border-radius: 30px;
-  transition: 0.3s;
+  transition: .3s;
 }
 
 .sociais a:hover {
@@ -327,17 +432,14 @@ footer p {
 /* BARRA DE SCROLL MODIFICADA */
 
 ::-webkit-scrollbar-track {
-  background-color: #272727;
+   background-color: #272727;
 }
 ::-webkit-scrollbar {
-  width: 10px;
+   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #ff176c;
-  border-radius: 3px;
+   background: #ff176c;
+   border-radius: 3px;
 }
 
 /* **************************** */
-
-
-
