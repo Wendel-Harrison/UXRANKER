@@ -247,6 +247,11 @@ transform: rotate(65.71deg);
       gap: 100px;
 }
 
+    .slider img{
+      /* filter: contrast(70%); */
+      filter: brightness(150%);
+    }
+
 .botoesSlider {
    display: flex;
    justify-content: space-between;
@@ -373,6 +378,9 @@ transform: rotate(-54.37deg);
    grid-template-columns: 1fr 1fr 1fr;
    gap: 80px;
    margin-bottom: 100px;
+ }
+ .todosCriterios .criterio1, .criterio2, .criterio3, .criterio4, .criterio5, .criterio6{
+   filter: contrast(300%);
  }
 
  .todosCriterios div {
